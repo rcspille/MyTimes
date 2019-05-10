@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+header{
+  display: flex;
+  align-items: center;
+  width: 94%;
+  display: inline-flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 3%;
+  border-bottom: 1px solid #333;
+}
+
+.logo{
+  display: inline-flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.site-title{
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+.navigation{
+  display: inline-flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.navigation ul{
+  display: inline-flex;
+  list-style: none;
+}
+
+.navigation ul li{
+  margin-right: 20px;
+}
+
+.navigation a{
+  color: #000;
+}
