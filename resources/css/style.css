@@ -7,12 +7,12 @@
 header{
   display: flex;
   align-items: center;
-  width: 94%;
+  width: 90%;
   display: inline-flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding: 10px 3%;
+  padding: 10px 5%;
   border-bottom: 1px solid #333;
 }
 
@@ -54,22 +54,135 @@ content{
   margin: 0 auto;
   padding-top: 30px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .col-large{
   display: flex;
   width: 630px;
-  border: 1px solid #666;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .col-medium{
   display: flex;
   width: 300px;
-  border: 1px solid #666;
+  flex-direction: column;
 }
 
 .col-small{
   display: flex;
+  flex-direction: column;
   width: 240px;
-  border: 1px solid #666;
+}
+
+/* STORY IMAGE TITLES */
+#spotlight-story-title{
+  background-image:url(../img/img-story-main.png);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+#story-1-title{
+  background-image:url(../img/img-story-1.png);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#story-2-title{
+  background-image:url(../img/img-story-2.png);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#story-3-title{
+  background-image:url(../img/img-story-3.png);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* STORIES */
+article{
+/*  display: flex;
+  flex-wrap: wrap;*/
+  margin-bottom: 30px;
+}
+
+/* NEWS BITES */
+p1{
+  display: flex;
+  background-color: WhiteSmoke;
+  font-size: 12px;
+  font-family: Verdana;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 15px 30px;
+}
+
+/* FOOTER */
+footer{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer a{
+  color: black;
+}
+
+/* HEADINGS */
+h1{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#spotlight-story-title h1{
+  font-size: 40px;
+}
+
+.img-bg{
+  color: white;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h4{
+  display: inline;
+  margin-right: 20px;
+  font-weight: normal;
+}
+
+h4 span{
+  font-size: 16px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 20px;
 }
